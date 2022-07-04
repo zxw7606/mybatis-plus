@@ -46,6 +46,9 @@ class EncryptTest {
         System.out.println(TableInfoHelper.checkRelated(true, "orderFile", "'ORDER_FILE'"));
     }
 
+    /**
+     * 获取实体信息
+     */
     @Test
     void testTableInfoHelper() {
         TableInfo info = TableInfoHelper.initTableInfo(new MapperBuilderAssistant(new MybatisConfiguration(), ""), Xx.class);

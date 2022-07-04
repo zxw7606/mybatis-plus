@@ -189,6 +189,8 @@ public class TableFieldInfo implements Constants {
     }
 
     /**
+     * ZXWBJ笔记1 实体信息封装 TableFieldInfo
+     * 学习于 逻辑删除注解字段 字段的更新策略
      * 全新的 存在 TableField 注解时使用的构造函数
      */
     @SuppressWarnings({"unchecked", "rawtypes"})
